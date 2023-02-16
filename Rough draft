@@ -15,7 +15,7 @@ Developers are welcome to add to the team 2531 robotics code whether they are pa
   - Contributed code must have a header block including:
       - general overview in each working file (summary).
       - Commit history must be appropriate.
-  - Previously existing code is NOT excused from the above requirement.  (*If you change a module, COMMENT IT!)
+      - Previously existing code is NOT excused from the above requirement.  (*If you change a module, COMMENT IT!)
   - Comments for each logical block of code are required.  
       - These comments should explain what that logical block does, default values, values designated for practice, competition, etc. 
   - Any code that uses UNUSUAL structures or approaches must be clearly explained.
@@ -34,24 +34,25 @@ Developers are welcome to add to the team 2531 robotics code whether they are pa
 
 ## Before merging code into main:
 - New projects:
-    - Before you begin, the idea must be introduced with a full plan to the programming team (at least 1 lead/mentor and 3 members present) to the point that the entire team understands everything being proposed.
+    - Before you begin, the idea must be introduced with a full plan to the programming team (at least 1 lead and 3 members present) to the point that the entire team understands everything being proposed.
         - The point of this discussion is to coordinate with the team and avoid any duplication of effort as well as to determine the need for the new project.
-    - After the project is completed, the review must be hosted in person (at least 1 lead/mentor and 3 members present).
+    - After the project is completed, the review must be hosted in person (at least 1 lead and 3 members present).
         - The programming team may offer suggestions to be implemented.
         - Create pull request.
            - Virtual review: member may put comments and concerns on the pull request on their own time.
-        - Code must be tested on one of the physical robots by loading that branch up to the robot (at least 1 lead/mentor and 3 members present).
+        - Code must be tested on one of the physical robots by loading that branch up to the robot (at least 1 lead and 3 members present).
            - Code must work as advertised.
            - Code must not interfere with any other functionality of other codes.
-        - When no problems are introduced, code may merge into main (at least 1 lead/mentor and 3 members present).
+        - When all introduced problems are resolved, code may merge into main (needs the approval of at least 1 lead and 3 members present).
     
 - Changes/Debugging from main branch:
     - Create pull request
-    - Virtual review: Anyone may review and comment code on pull request on their own time.
+        - Virtual review: Anyone may review and comment code on pull request on their own time.
+        - In person review not required.
     - Changes must work as advertised.
     - Changes must not interfere with any other functionality of the code.
+    - Changes must be tested on one of the physical robots by loading that branch up to the robot (at least 1 lead/mentor and 2 members present).
     - When all introduced problems are resolved, code may merge into main.
-    - Changes must be tested on one of the physical robots by loading that branch up to the robot.
     
 - IMPORTANT!!! If bad codes are detected in main...Notify the programming group immediately! One of the following may be done:
     1. Revert code to a previous commit from main.
