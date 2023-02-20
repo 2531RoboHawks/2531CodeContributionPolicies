@@ -40,10 +40,12 @@ Developers are welcome to add to the team 2531 robotics code whether they are pa
         - The programming team may offer suggestions to be implemented.
         - Create pull request.
            - Virtual review: member may put comments and concerns on the pull request on their own time.
-        - Code must be tested on one of the physical robots by loading that branch up to the robot (at least 1 lead and 3 members present).
+        - Code must be tested on one of the physical robots by loading that branch up to the robot
+           - at least 1 lead and 3 members present.
            - Code must work as advertised.
            - Code must not interfere with any other functionality of other codes.
-        - When all introduced problems are resolved, code may merge into main (needs the approval of at least 1 lead and 3 members present).
+        - When all introduced problems are resolved, code may merge into main.
+           - needs the approval of at least 1 lead and 3 members present).
     
 - Changes/Debugging from main branch:
     - Create pull request
@@ -51,9 +53,10 @@ Developers are welcome to add to the team 2531 robotics code whether they are pa
         - In person review MAY BE required.
     - Changes must work as advertised.
     - Changes must not interfere with any other functionality of the code.
-    - Changes must be tested on one of the physical robots by loading that branch up to the robot (at least 1 lead/mentor and 2 members present).
+    - Changes must be tested on one of the physical robots by loading that branch up to the robot
     - When all introduced problems are resolved, code may merge into main.
-    
+      - at least 1 lead/mentor and 2 members approvals.
+   
 - IMPORTANT!!! If bad codes are detected in main...Notify the programming group immediately! One of the following may be done:
     1. Revert code to a previous commit from main.
     2. Fix problem, create pull request, host a quick review, and merge into main.
