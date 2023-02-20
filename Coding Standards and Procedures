@@ -28,23 +28,31 @@
         - The programming team may offer suggestions to be implemented.
         - Create pull request.
            - Virtual review: member may put comments and concerns on the pull request on their own time.
-        - Code must be tested on one of the physical robots by loading that branch up to the robot
-           - at least 1 lead and 3 members present.
+        - Code must be tested on one of the physical robots by deploying to the robot (at least 1 lead and 3 members present).
            - Code must work as advertised.
            - Code must not interfere with any other functionality of other codes.
         - When all introduced problems are resolved, code may merge into main.
-           - needs the approval of at least 1 lead and 3 members present).
+           - needs the approval of at least 1 lead and 3 members present.
     
 - Changes/Debugging from main branch:
     - Create pull request
         - Virtual review: Anyone may review and comment code on pull request on their own time.
-        - In person review MAY BE required.
+        - Optional in-person reviews UNLESS the situation requires otherwise.
     - Changes must work as advertised.
     - Changes must not interfere with any other functionality of the code.
-    - Changes must be tested on one of the physical robots by loading that branch up to the robot
+    - Changes is RECCOMMENDED but not required to be tested on one of the physical robots by deploying to the robot.
+        - Exception: All changes due to debugging must be tested on the physical robot and must be confirmed to be working.
     - When all introduced problems are resolved, code may merge into main.
-      - at least 1 lead/mentor and 2 members approvals.
+        - needs the approval of at least 1 lead and 2 members.
    
-- IMPORTANT!!! If bad codes are detected in main...Notify the programming group immediately! One of the following may be done:
-    1. Revert code to a previous commit from main.
-    2. Fix problem, create pull request, host a quick review, and merge into main.
+- IMPORTANT!!! 
+    - If bad codes are detected in main in the SHOP...
+        - Notify the programming group via Slack.
+        - Fix problem and follow the procedures stated above.
+    - If bad codes are detected in main during COMPETITION...
+        - Notify the programming group via Slack immediately! One of the following may be done:
+            - Revert code to a previous commit from main.
+            - Fix problem, create pull request, host a quick review, and merge into main.
+        - If there's no time to do any of the following above before the next match:
+            - With the approval of at least 1 (other) lead/mentor and 2 members: Fix problem, deploy code for the next match without a proper review.
+            - If not approved, revert code to a previous commit from main and deploy code.
