@@ -48,7 +48,7 @@ Developers are welcome to add to the team 2531 robotics code whether they are pa
 - Changes/Debugging from main branch:
     - Create pull request
         - Virtual review: Anyone may review and comment code on pull request on their own time.
-        - In person review not required.
+        - In person review MAY BE required.
     - Changes must work as advertised.
     - Changes must not interfere with any other functionality of the code.
     - Changes must be tested on one of the physical robots by loading that branch up to the robot (at least 1 lead/mentor and 2 members present).
