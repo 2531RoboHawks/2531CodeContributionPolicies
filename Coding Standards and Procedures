@@ -1,15 +1,3 @@
-# Team 2531 RoboHawks 2023 Robot - code contribution standards & procedures.
-
-## overview:
-Developers are welcome to add to the team 2531 robotics code whether they are part of the programming team or not. The process for doing this applies equally to the programming team as well as non-members as follows:
-
-## Requirements:
-- Before beginning a new project, the contributor MUST discuss their plans with the programming team (at least 1 lead/mentor and 3 members present). 
-- All work must be based upon our current GitHub repo located at https://github.com/2531RoboHawks/2023RobotCode.
-- All work must be done on a BRANCH other than main.
-- All 2531 team members must follow the team's contribution procedures and meet the team's programming standards.  (Both outlined below.)
-
-
 ## Standards:
 - Code must be clearly commented.
   - Contributed code must have a header block including:
@@ -40,12 +28,12 @@ Developers are welcome to add to the team 2531 robotics code whether they are pa
         - The programming team may offer suggestions to be implemented.
         - Create pull request.
            - Virtual review: member may put comments and concerns on the pull request on their own time.
-        - Code must be tested on one of the physical robots by loading that branch up to the robot.
+        - Code must be tested on one of the physical robots by loading that branch up to the robot
            - at least 1 lead and 3 members present.
            - Code must work as advertised.
            - Code must not interfere with any other functionality of other codes.
-        - When all introduced problems are resolved, code may merge into main
-           - needs the approval of at least 1 lead and 3 members.
+        - When all introduced problems are resolved, code may merge into main.
+           - needs the approval of at least 1 lead and 3 members present).
     
 - Changes/Debugging from main branch:
     - Create pull request
@@ -53,11 +41,10 @@ Developers are welcome to add to the team 2531 robotics code whether they are pa
         - In person review MAY BE required.
     - Changes must work as advertised.
     - Changes must not interfere with any other functionality of the code.
-    - Changes must be tested on one of the physical robots by loading that branch up to the robot.
+    - Changes must be tested on one of the physical robots by loading that branch up to the robot
     - When all introduced problems are resolved, code may merge into main.
-       - at least 1 lead/mentor and 2 members aprovals.
-    
+      - at least 1 lead/mentor and 2 members approvals.
+   
 - IMPORTANT!!! If bad codes are detected in main...Notify the programming group immediately! One of the following may be done:
     1. Revert code to a previous commit from main.
     2. Fix problem, create pull request, host a quick review, and merge into main.
-
