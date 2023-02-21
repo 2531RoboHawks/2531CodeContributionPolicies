@@ -18,6 +18,8 @@
   7. Include LINKS to external references where they will be most helpful (if any).
   8. Add comments when fixing bugs.
   9. Use comments to mark incomplete implementations and/or anything that's need to be done (if any).
+      - For example:
+        // TODO: Add a spin flourish to the end of the autonomous routine.
 
 
 ## Before merging code into main:
@@ -53,6 +55,6 @@
         - Notify the programming group via Slack immediately! One of the following may be done:
             - Revert code to a previous commit from main.
             - Fix problem, create pull request, host a quick review, and merge into main.
-        - If there's no time to do any of the following above before the next match:
+        - If there's no time to properly follows the procedures before the next match:
             - With the approval of at least 1 (other) lead/mentor and 2 members: Fix problem, deploy code for the next match without a proper review.
             - If not approved, revert code to a previous commit from main and deploy code.
