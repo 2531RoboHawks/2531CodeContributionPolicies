@@ -47,6 +47,10 @@
         - Must work and not introduce new problems.
     - When all introduced problems are resolved, code may merge into main.
         - needs the approval of at least 1 lead and 2 members.
+        
+- During Competition:
+    - In a separate branch called "Comp", "RobotContainer.java" will be changing periodically for each match.
+        - Code may be deployed on robot for competition without a code review.
    
 - IMPORTANT!!! 
     - If bad codes are detected in main in the SHOP...
